@@ -3,20 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>master duel</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ol>
-        </nav>
-    </header>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-image: url(imagens/funfohead.jpg); /* Replace with your image URL */
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav {
 
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            color: white;
+        }
+        .nav a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+        }
+        .nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            padding-top: 60px; /* To avoid content being covered by the nav */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#cards">Cards</a>
+        <a href="#rules">Rules</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content">
+        
+    </div>
 </body>
 </html>
